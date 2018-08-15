@@ -39,6 +39,21 @@
     color: #f1abd7;
 }
 
+.Player__button--red {
+    height: 30px;
+    width: 30px;
+    background-color: #d35f5f;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 0;
+}
+
+.Player__button:hover {
+    background-color: #000;
+    border: 2px solid #d35f5f;
+    color: #d35f5f;
+}
+
 .Player__score {
     color: #fff;
     font-weight: bold;
