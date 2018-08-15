@@ -1,0 +1,27 @@
+.AddPlayer__input {
+	font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+	background-color: #f1abd7;	
+    border: 2px solid #ac4986;
+    border-radius: 5px;
+	margin: 10px;
+	padding: 5px;
+}
+.AddPlayer__submit {
+	cursor: pointer;
+	font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #ac4986;
+    border: 2px solid #f1abd7;    
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px 20px;    
+}
+
+.AddPlayer__submit:hover {
+    background-color: #f1abd7;
+    border: 2px solid #ac4986; 
+}

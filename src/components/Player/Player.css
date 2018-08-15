@@ -1,0 +1,46 @@
+.Player {
+	display: flex;
+    border: 1px solid #fff;
+    border-radius: 5px;
+	padding: 5px;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    background-color: #7086e9;
+}
+
+.Player:nth-child(even){
+	background-color: #4758a3;
+}
+
+.Player__name {
+    flex: 2;
+	text-transform: capitalize;
+    padding: 5px;
+    text-align: left;
+    color: #fff;
+}
+
+.Player__button {    
+    height: 30px;
+    width: 30px;
+    padding: 4px;
+    margin: 0 5px;
+    background-color: #f1abd7;
+    border: 2px solid #ac4986;
+	border-radius: 50%;
+    cursor: pointer;
+    color: #ac4986;
+	font-weight: bold;
+}
+
+.Player__button:hover {
+    background-color: #ac4986;
+    border: 2px solid #f1abd7;
+    color: #f1abd7;
+}
+
+.Player__score {
+    color: #fff;
+    font-weight: bold;
+	padding: 5px;
+}
